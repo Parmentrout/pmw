@@ -1,0 +1,115 @@
+# this is an auto generated file. This will be overwritten
+
+mutation CreateWorkItem(
+  $input: CreateWorkItemInput!
+  $condition: ModelWorkItemConditionInput
+) {
+  createWorkItem(input: $input, condition: $condition) {
+    id
+    name
+    email
+    category
+    details
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+mutation UpdateWorkItem(
+  $input: UpdateWorkItemInput!
+  $condition: ModelWorkItemConditionInput
+) {
+  updateWorkItem(input: $input, condition: $condition) {
+    id
+    name
+    email
+    category
+    details
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+mutation DeleteWorkItem(
+  $input: DeleteWorkItemInput!
+  $condition: ModelWorkItemConditionInput
+) {
+  deleteWorkItem(input: $input, condition: $condition) {
+    id
+    name
+    email
+    category
+    details
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+mutation CreateCatalog(
+  $input: CreateCatalogInput!
+  $condition: ModelCatalogConditionInput
+) {
+  createCatalog(input: $input, condition: $condition) {
+    id
+    name
+    description
+    products {
+      id
+      name
+      description
+      images
+      __typename
+    }
+    labelUrl
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+mutation UpdateCatalog(
+  $input: UpdateCatalogInput!
+  $condition: ModelCatalogConditionInput
+) {
+  updateCatalog(input: $input, condition: $condition) {
+    id
+    name
+    description
+    products {
+      id
+      name
+      description
+      images
+      __typename
+    }
+    labelUrl
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+mutation DeleteCatalog(
+  $input: DeleteCatalogInput!
+  $condition: ModelCatalogConditionInput
+) {
+  deleteCatalog(input: $input, condition: $condition) {
+    id
+    name
+    description
+    products {
+      id
+      name
+      description
+      images
+      __typename
+    }
+    labelUrl
+    createdAt
+    updatedAt
+    __typename
+  }
+}

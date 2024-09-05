@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-pmw-dev-6d1c5-authRole",
+      "UnauthRoleArn": "arn:aws:iam::428253748780:role/amplify-pmw-dev-6d1c5-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::428253748780:role/amplify-pmw-dev-6d1c5-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-pmw-dev-6d1c5-deployment",
+      "UnauthRoleName": "amplify-pmw-dev-6d1c5-unauthRole",
+      "StackName": "amplify-pmw-dev-6d1c5",
+      "StackId": "arn:aws:cloudformation:us-west-2:428253748780:stack/amplify-pmw-dev-6d1c5/0c3288f0-6b32-11ef-bd37-02a63e72cdf5",
+      "AmplifyAppId": "d1qmq1gklfw8dg"
+    },
+    "categories": {
+      "api": {
+        "pmw": {}
+      }
+    }
+  }
+}

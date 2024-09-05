@@ -1,0 +1,74 @@
+# this is an auto generated file. This will be overwritten
+
+query GetWorkItem($id: ID!) {
+  getWorkItem(id: $id) {
+    id
+    name
+    email
+    category
+    details
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+query ListWorkItems(
+  $filter: ModelWorkItemFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listWorkItems(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      email
+      category
+      details
+      createdAt
+      updatedAt
+      __typename
+    }
+    nextToken
+    __typename
+  }
+}
+
+query GetCatalog($id: ID!) {
+  getCatalog(id: $id) {
+    id
+    name
+    description
+    products {
+      id
+      name
+      description
+      images
+      __typename
+    }
+    labelUrl
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+query ListCatalogs(
+  $filter: ModelCatalogFilterInput
+  $limit: Int
+  $nextToken: String
+) {
+  listCatalogs(filter: $filter, limit: $limit, nextToken: $nextToken) {
+    items {
+      id
+      name
+      description
+      labelUrl
+      createdAt
+      updatedAt
+      __typename
+    }
+    nextToken
+    __typename
+  }
+}

@@ -1,0 +1,97 @@
+# this is an auto generated file. This will be overwritten
+
+subscription OnCreateWorkItem($filter: ModelSubscriptionWorkItemFilterInput) {
+  onCreateWorkItem(filter: $filter) {
+    id
+    name
+    email
+    category
+    details
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+subscription OnUpdateWorkItem($filter: ModelSubscriptionWorkItemFilterInput) {
+  onUpdateWorkItem(filter: $filter) {
+    id
+    name
+    email
+    category
+    details
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+subscription OnDeleteWorkItem($filter: ModelSubscriptionWorkItemFilterInput) {
+  onDeleteWorkItem(filter: $filter) {
+    id
+    name
+    email
+    category
+    details
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+subscription OnCreateCatalog($filter: ModelSubscriptionCatalogFilterInput) {
+  onCreateCatalog(filter: $filter) {
+    id
+    name
+    description
+    products {
+      id
+      name
+      description
+      images
+      __typename
+    }
+    labelUrl
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+subscription OnUpdateCatalog($filter: ModelSubscriptionCatalogFilterInput) {
+  onUpdateCatalog(filter: $filter) {
+    id
+    name
+    description
+    products {
+      id
+      name
+      description
+      images
+      __typename
+    }
+    labelUrl
+    createdAt
+    updatedAt
+    __typename
+  }
+}
+
+subscription OnDeleteCatalog($filter: ModelSubscriptionCatalogFilterInput) {
+  onDeleteCatalog(filter: $filter) {
+    id
+    name
+    description
+    products {
+      id
+      name
+      description
+      images
+      __typename
+    }
+    labelUrl
+    createdAt
+    updatedAt
+    __typename
+  }
+}

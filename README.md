@@ -25,3 +25,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+GraphQL endpoint: https://6eu7eiqnbbejvf4s3kprpqhfey.appsync-api.us-west-2.amazonaws.com/graphql
+GraphQL API KEY: da2-pb6m6ftoyzdfxb5n6dtln4feaq
